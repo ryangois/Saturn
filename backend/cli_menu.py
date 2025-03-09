@@ -10,6 +10,7 @@ def show_menu():
     print("5. Log Analyzer")
     print("6. Threat Intelligence Feed")
     print("7. Encrypted File Storage")
+    print("8. Vulnerability Scanner")
     choice = input("Choose an option: ")
 
     if choice == "1":
@@ -26,6 +27,8 @@ def show_menu():
         subprocess.run(["python", "backend/threat_intel/feed.py"])
     elif choice == "7":
         subprocess.run(["go", "run", "backend/encrypted_storage/storage.go"])
+    elif choice == "8":
+        subprocess.run(["python", "backend/vulnerability_scanner/scanner.py"])
     else:
         print("Invalid option")
 
