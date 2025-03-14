@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/7d685915-448f-4844-a611-565d8094f512)
+ 
+
 
 ### **Step-by-Step Setup Guide**
 
@@ -13,6 +14,9 @@ Before running the toolkit, ensure you have the following installed:
 - **Docker** (optional, for containerized deployment)
 
 ---
+
+ <img align="center" width="333px" src="https://github.com/user-attachments/assets/7d685915-448f-4844-a611-565d8094f512" />
+
 
 #### **2. Clone the Repository**
 Clone the project repository to your local machine:
